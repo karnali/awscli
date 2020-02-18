@@ -16,8 +16,8 @@ $ which python3
 /usr/local/bin/python3
 ```
 
-# awscli: Install AWS CLI version 2 using the macOS command line. 
-Make sure you are sudo.
+# awscli: Install AWS CLI Version 2. 
+Using the macOS command line. Make sure you are sudo.
 ```
 $ curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 $ sudo installer -pkg ./AWSCLIV2.pkg -target /
@@ -29,7 +29,8 @@ $ aws --version
 aws-cli/2.0.0 Python/3.7.4 Darwin/18.7.0 botocore/2.0.0dev4
 ```
 
-# Configure AWSCLI.  Make sure you create these in AWS IAM first.
+# Configure AWSCLI.  
+Make sure you create these in AWS IAM first.
 
 ```
 $ aws configure
@@ -49,7 +50,9 @@ $ cd /Users/jsmith/.aws
 $ aws s3 ls
 ```
 
-# Opetional: Add this aws shortcuts at the end of your  ~/.bash_profile and source ~/.bash_profile.  Just type helpaws.
+# Opetional: Add this aws shortcuts at the end of your ~/.bash_profile 
+source ~/.bash_profile.  Just type helpaws.
+
 ```
 $ nano ~/.bash_profile
 ```
