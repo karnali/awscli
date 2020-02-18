@@ -50,8 +50,9 @@ $ cd /Users/jsmith/.aws
 $ aws s3 ls
 ```
 
-# Opetional: Add this aws shortcuts at the end of your ~/.bash_profile 
-source ~/.bash_profile.  Just type helpaws.
+# Opetional: Add this aws shortcuts 
+Add below code at the end of your ~/.bash_profile file hen source ~/.bash_profile.    
+Just type helpaws.
 
 ```
 $ nano ~/.bash_profile
