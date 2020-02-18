@@ -34,8 +34,8 @@ Make sure you create these in AWS IAM first.
 
 ```
 $ aws configure
-AWS Access Key ID [None]: AJNNW3WAKIAJNNW3WAJNNW3WAJNNW3W
-AWS Secret Access Key [None]: mTcYglFpvcYg1cYgcYg8Zb5D4cYg
+AWS Access Key ID [None]: A******************W
+AWS Secret Access Key [None]: m******************Yg
 Default region name [None]: us-east-1
 Default output format [None]: json
 ```
@@ -50,8 +50,8 @@ $ cd /Users/jsmith/.aws
 $ aws s3 ls
 ```
 
-# Opetional: Add this aws shortcuts 
-Add below code at the end of your ~/.bash_profile file hen source ~/.bash_profile.    
+# Optional: Add this aws shortcuts 
+Add below code at the end of your ~/.bash_profile file then source ~/.bash_profile.    
 Just type helpaws.
 
 ```
