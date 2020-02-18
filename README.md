@@ -1,4 +1,5 @@
-# Python version 3 check Note: Python3 breaks backwards compatibility
+# Python version 3 check 
+Note: Python3 breaks backwards compatibility
 
 Edit and add ~/.bash_profile and source ~/.bash_profile	
 ```
@@ -15,7 +16,8 @@ $ which python3
 /usr/local/bin/python3
 ```
 
-# awscli: Install AWS CLI version 2 using the macOS command line.  Make sure you are sudo.
+# awscli: Install AWS CLI version 2 using the macOS command line. 
+Make sure you are sudo.
 ```
 $ curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 $ sudo installer -pkg ./AWSCLIV2.pkg -target /
