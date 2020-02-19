@@ -103,7 +103,7 @@ aws ec2 describe-volumes --query 'Volumes[*].[VolumeId, Attachments[0].InstanceI
 ####  List all aws snapshots #### 
 function aws-list-snap() 
 {
-aws ec2 describe-snapshots --owner-ids 265197127965 --query 'Snapshots[*].[SnapshotId, VolumeSize, FakeKey, State, VolumeId, Progress, Tags[?Key==`Name`] | [0].Value]' --output table
+aws ec2 describe-snapshots --owner-ids xxxxxxx --query 'Snapshots[*].[SnapshotId, VolumeSize, FakeKey, State, VolumeId, Progress, Tags[?Key==`Name`] | [0].Value]' --output table
 }
 
 #### aws describe ec2 instance #### 
